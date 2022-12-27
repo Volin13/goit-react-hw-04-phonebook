@@ -8,7 +8,7 @@ import {
 } from '../components/index';
 import { nanoid } from 'nanoid';
 
-export const App = () => {
+const App = () => {
   const [contacts, setContacts] = useState(() => {
     const savedData = localStorage.getItem('contacts');
     const parsedData = JSON.parse(savedData);
@@ -58,3 +58,4 @@ export const App = () => {
     </Container>
   );
 };
+export default App;

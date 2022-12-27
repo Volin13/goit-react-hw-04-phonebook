@@ -1,0 +1,24 @@
+.img {
+  width: 30px;
+}
+.img:hover {
+  stroke: white;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.btn:hover,
+.btn:focus {
+  border: 1px solid aquamarine;
+  background-color: blue;
+  color: white;
+}
+.btn_list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
