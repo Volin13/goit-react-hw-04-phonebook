@@ -1,5 +1,11 @@
 import { useEffect, useState } from 'react';
-import { Section, Filter, Contacts, NewContactForm, Container } from './';
+import {
+  Section,
+  Filter,
+  Contacts,
+  NewContactForm,
+  Container,
+} from '../components/index';
 import { nanoid } from 'nanoid';
 
 export const App = () => {
